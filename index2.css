@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Fira Sans;
+    font-weight: bold;
+    margin: 0;
+    background-image: url("pexels-umkreisel-app-956981.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+#message-el {
+    color: #ffffff;
+    font-size: 1.2rem;
+    background: #ff0101bf;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+    font-style: italic;
+}
+p{
+    color: rgb(240, 248, 255);
+}
+#btn{
+    background:yellow;
+    
+    font-family:serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin: auto;
+    padding-block: 8px;
+    width: 150px;
+    margin-bottom: 5px;
+
+}
+#btn:hover {
+    background: rgb(0, 0, 0);
+    color:yellow;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.97);
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: transform 0.1s;
+}
+
+#btn:active {
+    background: #ffffff;
+    color: #222;
+}
