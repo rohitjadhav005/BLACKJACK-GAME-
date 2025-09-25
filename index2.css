@@ -10,8 +10,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(1px);
+   
 }
 h1{
     color: rgb(255, 255, 255);
@@ -58,4 +57,5 @@ p{
 #btn:active {
     background: #ffffff;
     color: #222;
+
 }
